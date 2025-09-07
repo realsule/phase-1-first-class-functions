@@ -5,7 +5,7 @@ function receivesAFunction(callback) {
 
 function returnsANamedFunction() {
   function namedFunc() {
-    console.log("I'm a named function!");
+    console.log("A named function");
   }
   return namedFunc;
 }
